@@ -1,19 +1,24 @@
+import React, { useState } from 'react';
+
 function Contact() {
     return (
-        <div>
-            <h2>Contact</h2>
+        <div className="container p-2">
+            <h2 className="m-2">Contact</h2>
             <form>
-                <div>
-                    <label>Name</label>
-                    <input></input>
+                <div className="m-2">
+                    <label className="form-label m-2">Name</label>
+                    <input className="bg-white"></input>
+                </div>
+                <div className="m-2">
+                    <label className="form-label m-2">Email</label>
+                    <input className="bg-white"></input>
+                </div>
+                <div className="m-2">
+                    <label className="form-label m-2">Message</label>
+                    <textarea className="bg-white"></textarea>
                 </div>
                 <div>
-                    <label>Email</label>
-                    <input></input>
-                </div>
-                <div>
-                    <label>Message</label>
-                    <textarea></textarea>
+                    <button type="submit" className="btn btn-dark m-2">Send</button>
                 </div>
             </form>
         </div>

@@ -2,8 +2,8 @@ import react from "react";
 
 function About() {
   return (
-    <div class="p-2">
-      <h2>About Me</h2>
+    <div class="container p-2">
+      <h2 className="m-2">About Me</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

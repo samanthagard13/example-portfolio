@@ -16,6 +16,8 @@
 
 body {
   background-image: url('../images/background.png');
+  font-family: 'Montserrat', sans-serif;
+  color: black;
   background-size: cover;
 }
 
