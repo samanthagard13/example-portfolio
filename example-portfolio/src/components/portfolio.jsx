@@ -1,7 +1,7 @@
 function Portfolio() {
     return (
         <div class="container p-2">
-            <h2 className="m-2">Portfolio</h2>
+            <h2 className="m-2 display-6">Portfolio</h2>
             <div>
                 <img src="/images/todo-pic.png" class="img-fluid p-2"/>
                 <img src="/images/weather-pic.png" class="img-fluid p-2"/>
