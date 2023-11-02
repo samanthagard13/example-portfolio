@@ -21,12 +21,6 @@ body {
   background-size: cover;
 }
 
-.main-content {
-  width: 100%;
-  padding: 0;
-  background-color: white;
-}
-
 a {
   font-weight: 500;
   color: #646cff;
@@ -78,6 +72,19 @@ button {
 
 .image-with-buttons:hover .image-buttons {
   opacity: 1;
+  color: rgb(86, 86, 86);
+}
+
+.image-with-buttons:hover .image-buttons:hover {
+  color: black;
+}
+
+.icons {
+  color: rgb(86, 86, 86);
+}
+
+.icons:hover {
+  color: black;
 }
 
 @media (prefers-color-scheme: light) {

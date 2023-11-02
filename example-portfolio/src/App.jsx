@@ -79,9 +79,9 @@ function App() {
 
         <footer>
           <div>
-            <a><i className="fab fa-github fa-2x"></i></a>
-            <a><i></i></a>
-            <a><i></i></a>
+            <a href="https://github.com"><i className="fab fa-github fa-2x m-2 p-2 icons"></i></a>
+            <a href="https://www.linkedin.com"><i className="fab fa-linkedin fa-2x m-2 p-2 icons"></i></a>
+            <a href="https://stackoverflow.com/"><i className="fab fa-stack-overflow fa-2x m-2 p-2 icons"></i></a>
           </div>
         </footer>
       </div>
