@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <div>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top m-4">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top m-4 mb-2">
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
               Jane Doe
@@ -70,7 +70,7 @@ function App() {
           </div>
         </nav>
 
-        <main className="bg-white">
+        <main className="mt-5">
           {selectedPage === 'about' && <About />}
           {selectedPage === 'portfolio' && <Portfolio />}
           {selectedPage === 'contact' && <Contact />}

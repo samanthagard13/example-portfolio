@@ -2,7 +2,7 @@ import React from 'react';
 
 function Portfolio() {
   return (
-    <div className="container p-2 main-content">
+    <div className="container p-2 mt-2 mb-4 main-content">
       <h2 className="m-2 display-6">Portfolio</h2>
       <div className="image-container">
         <div className="image-with-buttons">
