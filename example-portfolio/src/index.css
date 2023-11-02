@@ -21,6 +21,12 @@ body {
   background-size: cover;
 }
 
+.main-content {
+  width: 100%;
+  padding: 0;
+  background-color: white;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -54,12 +60,24 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
+
+.image-with-buttons {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+.image-buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-with-buttons:hover .image-buttons {
+  opacity: 1;
 }
 
 @media (prefers-color-scheme: light) {

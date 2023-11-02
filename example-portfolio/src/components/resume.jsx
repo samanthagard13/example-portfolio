@@ -1,6 +1,6 @@
 function Resume() {
   return (
-    <div className="container p-2">
+    <div className="container p-2 main-content">
       <h2 className="m-2 display-6">Resume</h2>
       <div>
         <h4>Front End</h4>

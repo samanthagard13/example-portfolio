@@ -15,13 +15,13 @@ function App() {
   return (
     <>
       <div>
-        <nav class="navbar navbar-expand-lg transparent-navbar fixed-top m-4">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+        <nav className="navbar navbar-expand-lg transparent-navbar fixed-top m-4">
+          <div className="container-fluid">
+            <a className="navbar-brand" href="#">
               Jane Doe
             </a>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -29,10 +29,10 @@ function App() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                   <a
                     className={`nav-link ${selectedPage === "about" ? "active" : ""}`}
@@ -77,6 +77,13 @@ function App() {
           {selectedPage === 'resume' && <Resume />}
         </main>
 
+        <footer>
+          <div>
+            <a><i className="fab fa-github fa-2x"></i></a>
+            <a><i></i></a>
+            <a><i></i></a>
+          </div>
+        </footer>
       </div>
     </>
   );

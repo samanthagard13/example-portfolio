@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function Contact() {
     return (
-        <div className="container p-2">
+        <div className="container p-2 main-content">
             <h2 className="m-2 display-6">Contact</h2>
             <form>
                 <div className="m-2">
