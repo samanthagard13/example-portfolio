@@ -18,7 +18,7 @@ function Contact() {
                     <textarea className="bg-white"></textarea>
                 </div>
                 <div>
-                    <button type="submit" className="btn btn-dark m-2">Send</button>
+                    <button type="submit" className="btn m-2 contact-btn">Send</button>
                 </div>
             </form>
         </div>

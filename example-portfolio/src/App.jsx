@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <div>
-        <nav className="navbar navbar-expand-lg transparent-navbar fixed-top m-4">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top m-4">
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
               Jane Doe
@@ -77,7 +77,7 @@ function App() {
           {selectedPage === 'resume' && <Resume />}
         </main>
 
-        <footer>
+        <footer className="fixed-bottom p-2">
           <div>
             <a href="https://github.com"><i className="fab fa-github fa-2x m-2 p-2 icons"></i></a>
             <a href="https://www.linkedin.com"><i className="fab fa-linkedin fa-2x m-2 p-2 icons"></i></a>

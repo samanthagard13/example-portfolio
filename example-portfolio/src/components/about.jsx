@@ -3,8 +3,9 @@ import react from "react";
 function About() {
   return (
     <div className="container p-2 main-content">
-      <h2 className="m-2 display-6">About Me</h2>
-      <p>
+      <h2 className="m-2 p-2 display-6">About Me</h2>
+      <i class="fa-regular fa-user fa-2xl"></i>
+      <p className="p-2">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

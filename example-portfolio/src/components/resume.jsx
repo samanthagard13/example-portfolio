@@ -27,6 +27,11 @@ function Resume() {
           <li>GraphQL</li>
         </ul>
       </div>
+
+<div className="m-2 resume-link contact-btn">
+  <a href="https://docs.google.com/document/d/1bi6CAyqn2YU0juhRDLmMQMU8XL5pEzC0b57UHmFpIWQ/edit?usp=sharing" target="blank">My Resume</a>
+</div>
+
     </div>
   );
 }
